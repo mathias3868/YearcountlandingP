@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+html body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html body p {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+html body .container {
+  background: url(./images/image-20.png) center no-repeat rgba(0, 0, 0, 0.5);
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  background-blend-mode: overlay;
+  position: relative;
+}
+html body .container .wrap {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 600px;
+  padding: 0 30px;
+  flex-direction: column;
+  text-align: center;
+}
+html body .container .wrap h1 {
+  font-size: 4rem;
+  text-shadow: 0 0 4px #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+html body .container .wrap h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 40px;
+}
+html body .container .wrap p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+html body .container .wrap .boxes {
+  display: flex;
+  justify-content: space-around;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  align-items: center;
+  margin: 30px 0;
+}
+html body .container .wrap .boxes > * {
+  width: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+html body .container .wrap .boxes > * h3 {
+  font-size: 3rem;
+  line-height: 55px;
+}
+html body .container .wrap .boxes > * p {
+  font-weight: 2rem;
+  line-height: 35px;
+  text-transform: uppercase;
+  background: orangered;
+}
+html body .container .wrap form {
+  margin-top: 10px;
+}
+html body .container .wrap form input {
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  color: #eee;
+  border-radius: 5px 0 0 5px;
+}
+html body .container .wrap form input::-moz-placeholder {
+  color: #b3b3b3;
+  text-transform: uppercase;
+}
+html body .container .wrap form input::placeholder {
+  color: #b3b3b3;
+  text-transform: uppercase;
+}
+html body .container .wrap form button {
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  text-transform: capitalize;
+}/*# sourceMappingURL=index.css.map */
